@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".GraphActivity"
+    android:gravity="center">
+
+
+    <com.softmoore.android.graphlib.GraphView
+        android:id="@+id/graph_view"
+        android:layout_width="370dp"
+        android:layout_height="370dp" />
+
+    <TextView
+        android:id="@+id/graph_view_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/resultButton"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:onClick="openMainPage"
+        android:padding="16dp"
+        android:radius="8dp"
+        android:text="Назад"/>
+
+</LinearLayout>
